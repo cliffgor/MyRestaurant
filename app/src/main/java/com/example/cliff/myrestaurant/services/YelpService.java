@@ -3,7 +3,7 @@ package com.example.cliff.myrestaurant.services;
 import android.util.Log;
 
 import com.example.cliff.myrestaurant.models.Restaurant;
-import com.example.cliff.myrestaurant.ui.Constants;
+import com.example.cliff.myrestaurant.Constants;
 
 import org.json.JSONArray;
 import org.json.JSONException;

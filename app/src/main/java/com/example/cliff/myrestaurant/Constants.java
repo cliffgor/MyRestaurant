@@ -1,4 +1,4 @@
-package com.example.cliff.myrestaurant.ui;
+package com.example.cliff.myrestaurant;
 
 import com.example.cliff.myrestaurant.BuildConfig;
 

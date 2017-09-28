@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.cliff.myrestaurant.Constants;
 import com.example.cliff.myrestaurant.R;
 import com.example.cliff.myrestaurant.models.Restaurant;
 import com.google.firebase.database.DatabaseReference;
@@ -42,7 +43,7 @@ public class RestaurantDetailFragment extends Fragment implements View.OnClickLi
 
     private Restaurant mRestaurant;
 
-    public static RestaurantDetailFragment newInstance(Restaurant restaurant, Object parcels) {
+    public static RestaurantDetailFragment newInstance(Restaurant restaurant) {
         RestaurantDetailFragment restaurantDetailFragment = new RestaurantDetailFragment();
         Bundle args = new Bundle();
         args.putParcelable("restaurant", Parcels.wrap(restaurant));
@@ -115,4 +116,6 @@ public class RestaurantDetailFragment extends Fragment implements View.OnClickLi
         }
 
     }
+
+
 }
