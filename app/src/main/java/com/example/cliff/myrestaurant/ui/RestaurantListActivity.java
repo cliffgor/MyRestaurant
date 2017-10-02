@@ -33,7 +33,8 @@ public class RestaurantListActivity extends AppCompatActivity {
     private SharedPreferences.Editor mEditor;
     private String mRecentAddress;
 
-    @Bind(R.id.recyclerView) RecyclerView mRecyclerView;
+    @Bind(R.id.recyclerView)
+    RecyclerView mRecyclerView;
 
     private RestaurantListAdapter mAdapter;
     public ArrayList<Restaurant> mRestaurants = new ArrayList<>();
@@ -123,5 +124,8 @@ public class RestaurantListActivity extends AppCompatActivity {
 
     private void addToSharedPreferences(String location) {
         mEditor.putString(Constants.PREFERENCES_LOCATION_KEY, location).apply();
+
+
     }
 
+}
