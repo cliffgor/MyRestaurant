@@ -1,10 +1,12 @@
-package com.example.cliff.myrestaurant;
+package com.example.cliff.myrestaurant.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.cliff.myrestaurant.Constants;
+import com.example.cliff.myrestaurant.R;
 import com.example.cliff.myrestaurant.adapters.FirebaseRestaurantViewHolder;
 import com.example.cliff.myrestaurant.models.Restaurant;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
